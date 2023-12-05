@@ -1,0 +1,461 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    background-color: #eee;
+    color: #333;
+  }
+  
+  /* Header styles */
+  #header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo h4 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .logo p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  #nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #nav-bar ul li {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ff6600;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #hero p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #333;
+    border-radius: 3px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Other sections */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #aim,
+  #benefits-objectives {
+    margin-top: 40px;
+  }
+  #aim h2 {
+    text-align: center;
+  }
+
+  
+  #aim h2,
+  #benefits-objectives h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  #aim p,
+  #benefits-objectives ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  #benefits-objectives ul {
+    margin-left: 20px;
+  }
+  
+  #benefits-objectives li {
+    margin-bottom: 15px;
+  }
+  
+  /* Demo video section styles */
+  #demo-video {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #demo-video h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .video-wrapper iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Features section styles */
+  #features {
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #features h4 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .icon {
+    flex: 0 0 20%;
+    font-size: 40px;
+    margin-right: 20px;
+    color: #ff6600;
+  }
+  
+  .desc {
+    flex: 0 0 80%;
+    text-align: left;
+  }
+  
+  .desc h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .desc p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  /* About Us section styles */
+  #about-us {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #about-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    text-align: left;
+  }
+  
+  .team-member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .social-links {
+    margin-top: 15px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-links a:hover {
+    color: #ff6600;
+  }
+  
+  /* Footer styles */
+  #footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #footer p {
+    font-size: 14px;
+  }
+  /* Cover Page Section styles */
+/* Cover Page Section styles */
+#cover-page {
+    background-image: url('cover-image.jpg'); /* Replace 'cover-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color for better readability based on background */
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  #cover-page .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #cover-page h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  #cover-page p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  
+  /* GitHub Link Section styles */
+  #github-link {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #github-link h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #github-link p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  /* Image Display Section styles */
+  #app-images {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #app-images h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .image-gallery img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+  }
+  /* Styling for the deployed app link section */
+#deployed-app-link {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  #deployed-app-link .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .app-link {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .app-link a {
+    color: #007bff; /* Change link color to your preference */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .app-link a:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
+  
+  /* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Header styles */
+    .logo h4 {
+      font-size: 20px;
+    }
+  
+    .logo p {
+      font-size: 12px;
+    }
+  
+    #nav-bar ul {
+      margin-top: 10px;
+    }
+  
+    .nav-link {
+      font-size: 14px;
+    }
+  
+    /* Hero section styles */
+    #hero h2 {
+      font-size: 24px;
+    }
+  
+    #hero p {
+      font-size: 14px;
+    }
+  
+    .btn {
+      font-size: 14px;
+    }
+  
+    /* Other sections */
+    .container {
+      padding: 10px;
+    }
+  
+    #aim h2,
+    #benefits-objectives h2 {
+      font-size: 20px;
+    }
+  
+    #aim p,
+    #benefits-objectives ul,
+    #about-us h2,
+    .team-member h3,
+    .team-member p,
+    #demo-video h2,
+    #features h4,
+    .desc h2,
+    .desc p {
+      font-size: 14px;
+    }
+  
+    #benefits-objectives ul {
+      margin-left: 15px;
+    }
+  
+    #benefits-objectives li {
+      margin-bottom: 10px;
+    }
+  
+    /* Demo video section styles */
+    .video-wrapper iframe {
+      height: 300px;
+    }
+  
+    /* Features section styles */
+    .icon {
+      font-size: 30px;
+    }
+  
+    .desc h2 {
+      font-size: 20px;
+    }
+  
+    /* About Us section styles */
+    .team-member {
+      width: 100%;
+    }
+  
+    /* GitHub Link Section styles */
+    #github-link h2 {
+      font-size: 20px;
+    }
+  
+    #github-link p {
+      margin-bottom: 20px;
+    }
+  
+    /* Image Display Section styles */
+    .image-gallery img {
+      width: 200px;
+      margin: 5px;
+    }
+  
+    /* Deployed App Link Section styles */
+    .app-link {
+      font-size: 14px;
+    }
+  }
+  
