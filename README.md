@@ -1,6 +1,4 @@
-Certainly! Here's an example of a comprehensive README file for an HTML/CSS project:
 
----
 
 # Hostel Management System Landing Page
 
