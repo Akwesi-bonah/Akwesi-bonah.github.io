@@ -258,31 +258,48 @@
   #footer p {
     font-size: 14px;
   }
-/* Cover Page Section styles */
 #cover-page {
-    background-image: url(''); 
+    background-image: url('https://cdn.pixabay.com/photo/2021/10/06/05/17/learn-6684425_1280.jpg'); /* Update URL to the image source */
     background-size: cover;
     background-position: center;
     color: #fff; 
     padding: 100px 20px;
     text-align: center;
-  }
-  
-  #cover-page .container {
+    position: relative; /* Add this line */
+}
+
+#cover-page .container {
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  #cover-page h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-  }
-  
-  #cover-page p {
+    position: relative; /* Add this line */
+}
+
+#cover-page img {
+    display: block;
+    max-width: 100%; /* Ensure the image stays within its container */
+    height: auto;
+    opacity: 0; /* Hide the HTML img tag */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Add this CSS for the quote */
+#cover-page .quote {
+    position: absolute;
+    top: 50%; /* Adjust position as needed */
+    left: 50%; /* Adjust position as needed */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%; /* Adjust width as needed */
+}
+
+#cover-page .quote p {
     font-size: 24px;
-    margin-bottom: 40px;
-  }
-  
+    line-height: 1.5;
+    margin: 0;
+    color: #fff; /* Adjust text color */
+}
+
   
   /* GitHub Link Section styles */
   #github-link {
