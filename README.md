@@ -1,4 +1,4 @@
-
+7
 
 # Hostel Management System Landing Page
 
@@ -72,5 +72,3 @@ Contributions are welcome! Feel free to fork the repository, make changes, and s
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Feel free to customize this README to suit your project's specific details, guidelines, and requirements.
