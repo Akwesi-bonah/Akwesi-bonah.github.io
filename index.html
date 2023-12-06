@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-</head>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    </head>
 
 <body>
     <div id="page-wrapper">
@@ -77,17 +81,35 @@
             </div>
           </section>
              <!-- Image Display Section -->
-    <section id="app-images">
-        <div class="container">
-          <h2>App Screenshots</h2>
-          <div class="image-gallery">
-            <!-- Add your app screenshots as images here -->
-            <img src="images/app-screenshot1.jpg" alt="App Screenshot 1">
-            <img src="images/app-screenshot2.jpg" alt="App Screenshot 2">
-            <!-- Add more images as needed -->
-          </div>
-        </div>
-      </section>
+             <section id="app-images">
+                <div class="container">
+                  <h2>App Screenshots</h2>
+                  <div class="image-gallery">
+                    <!-- Add your app screenshots as images here -->
+                    <a href="image/student_login.png" class="image-link" title="Student Login Page">
+                      <img src="image/student_login.png" alt="student login page">
+                    </a>
+                    <a href="image/al_room.png" class="image-link" title="Available Room">
+                      <img src="image/al_room.png" alt="available room">
+                    </a>
+                    <a href="image/mybooking.png" class="image-link" title="My Booking">
+                      <img src="image/mybooking.png" alt="my booking">
+                    </a>
+                    <a href="image/staff_login.png" class="image-link" title="Staff Login">
+                      <img src="image/staff_login.png" alt="staff login">
+                    </a>
+                    <a href="image/block.png" class="image-link" title="Block Management">
+                      <img src="image/block.png" alt="block management">
+                    </a>
+                    <a href="image/room_list.png" class="image-link" title="Room Management">
+                      <img src="image/room_list.png" alt="room management">
+                    </a>
+                    <!-- Add other image tags here -->
+                  </div>
+                </div>
+              </section>
+              
+      
 
         <div class="container">
             <section id="aim">
@@ -108,7 +130,7 @@
                     </p>
                     <p>
                         The ordeal didn't end there. There was just one payment option available, 
-                        which necessitated joining yet another neverending queue at the bank. 
+                        which necessitated joining yet another never ending queue at the bank. 
                         This cumbersome and time consuming process left a lasting impression on me
                     </p>
                     <p>
@@ -272,6 +294,39 @@
         </footer>
     </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.image-gallery').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+
+      // Magnific Popup initialization for image preview
+      $('.image-link').magnificPopup({
+        type: 'image',
+        gallery: {
+          enabled: true
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
