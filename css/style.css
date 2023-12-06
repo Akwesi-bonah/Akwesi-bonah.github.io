@@ -260,12 +260,16 @@
   }
 /* Cover Page Section styles */
 #cover-page {
-    background-image: url('https://cdn.pixabay.com/photo/2021/10/06/05/17/learn-6684425_1280.jpg'); 
+    background-image: url(''); 
     background-size: cover;
     background-position: center;
     color: #fff; 
     padding: 100px 20px;
     text-align: center;
+  }
+  img {
+    max-height: 100%;
+    width: auto;
   }
   
   #cover-page .container {
