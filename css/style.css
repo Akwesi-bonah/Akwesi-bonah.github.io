@@ -268,8 +268,8 @@
     text-align: center;
   }
   img {
-    max-height: 80%;
-    width: auto;
+    max-height: 50%;
+    width: 50%;
   }
   
   #cover-page .container {
