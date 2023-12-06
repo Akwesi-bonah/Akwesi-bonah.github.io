@@ -117,7 +117,7 @@
   #aim p,
   #benefits-objectives ul {
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.6;
     color: #666;
   }
   
@@ -260,7 +260,7 @@
   }
 /* Cover Page Section styles */
 #cover-page {
-    background-image: url('https://cdn.pixabay.com/photo/2021/10/06/05/17/learn-6684425_1280.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2021/10/06/05/17/learn-6684425_1280.jpg'); 
     background-size: cover;
     background-position: center;
     color: #fff; 
