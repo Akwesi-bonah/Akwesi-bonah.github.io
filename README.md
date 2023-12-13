@@ -47,9 +47,11 @@ The team members involved in this project are:
 
 The landing page includes an embedded demo video showcasing the functionalities of the Hostel Management System.
 
+[![Demo Video](https://img.youtube.com/vi/P1tEHC3m5E0/0.jpg)](https://www.youtube.com/watch?v=P1tEHC3m5E0)
+
 ## Deployed App Link
 
-Users can visit the deployed app by following the [Explore Now](https://your-deployed-app.com) link provided on the landing page.
+Users can visit the deployed app by following the [Explore Now](https://www.aflahgh.tech) link provided on the landing page.
 
 ## Responsiveness
 
